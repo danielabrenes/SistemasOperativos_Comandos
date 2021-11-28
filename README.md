@@ -40,7 +40,7 @@ head *ruta* -n 3  () |
 tail
 less o more | Muestra primeras 10 lineas
 ls -1 / -R | Imprime todas las carpetas
-ls -1 / -R (|) more | Imprime las carpetas lentamente)
+ls -1 / -R - more | Imprime las carpetas lentamente)
 History | Historial de todos los comandos ejecutados
 History \ grep curl “palabra” | En el historial busca la palabra
 Reboot | Reinia el equipo
