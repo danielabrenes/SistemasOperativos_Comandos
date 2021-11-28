@@ -39,7 +39,6 @@ head *ruta* | Primeras líneas de un archivo)
 head *ruta* -n 3  () | 
 tail
 less o more | Muestra primeras 10 lineas
-cat | Todo el contenido de un archivo)
 ls -1 / -R | Imprime todas las carpetas
 ls -1 / -R (|) more | Imprime las carpetas lentamente)
 History | Historial de todos los comandos ejecutados
