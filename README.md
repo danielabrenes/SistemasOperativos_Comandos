@@ -10,7 +10,7 @@ sudo apt | Para instalar paquetes
 clear | Limpia la terminal
 sudo apt update && sudo apt upgrade | Para las nuevas instalaciones realizarles una actualizacion
 pwd | Muestra donde esta localizado en la terminal
-sudo apt cmatrix | Instalar matrix
+sudo apt install cmatrix | Instalar matrix
 cmatrix | Ejecuta la matrix
 whoami | Para ver el nombre del dispositivo
 man | Muestra el manual
