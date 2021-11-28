@@ -18,7 +18,7 @@ exit | Sale del programa
 nano | Para un editor de texto
 cat (nombre del archivo) | Para ver el archivo de texto
 ls | Trae los archivos adjuntos de la carpeta
-root | Para ponerse en modo administrador
+su - | Para ponerse en modo administrador (root)
 nano | Para crear un archivo nano
 cat (nombre del archivo) | Para ver el archivo de texto
 Mkdir | Crear carpeta
