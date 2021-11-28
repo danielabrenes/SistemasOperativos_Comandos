@@ -8,7 +8,7 @@ sudo apt install neofetch | Instalacion del neofetch
 neofetch | Ejecuta el Neofetch
 sudo apt | Para instalar paquetes
 clear | Limpia la terminal
-sudo apt updtae && sudo apt upgrade | Para las nuevas instalaciones realizarles una actualizacion
+sudo apt update && sudo apt upgrade | Para las nuevas instalaciones realizarles una actualizacion
 pwd | Muestra donde esta localizado en la terminal
 sudo apt cmatrix | Instalar matrix
 cmatrix | Ejecuta la matrix
