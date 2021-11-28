@@ -32,7 +32,6 @@ Scp archivo usuario@direccionip:/ruta |
 sudo apt install openssh-server | Instalacion de servidor ssh
 git clone URL | Para clonar 
 curl -X GET -L ubicación | Envia solicitudes a páginas web
-GmailApp.sendEmail(‘correo’, ‘asunto’, ‘data.toString()) | Envia correos
 wc /var/log/syslog | Cuenta la cantidad de líneas
 wc /var/log/syslog -w | Cuenta la cantidad de palabras
 wc /var/log/syslog -m | Cuenta la cantidad de caracteres
