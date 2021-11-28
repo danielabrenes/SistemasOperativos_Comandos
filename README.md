@@ -22,7 +22,7 @@ su - | Para ponerse en modo administrador (root)
 Mkdir | Crear carpeta
 Cp texto1 texto2 | Para hacer copia entre textos
 Mv nombre archivo, ruta donde se va a mover | Para mover un archivo de carpeta
-Ls carpeta (|) grep archivo | Muestra lo de la carpeta y muestra una cadena string
+Ls carpeta *|* grep archivo | Muestra lo de la carpeta y muestra una cadena string
 Rm archivo ruta | Para borrar
 Touch archivo | Crea archivo dentro de directorio
 Rm directorio -R | Borra un directorio completo
