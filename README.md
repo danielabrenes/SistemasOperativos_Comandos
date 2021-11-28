@@ -49,11 +49,8 @@ History | Historial de todos los comandos ejecutados
 History \ grep curl “palabra” | En el historial busca la palabra
 Reboot | Reinia el equipo
 Shutdown | Apaga el equipo
-Pdfunite “nombres de los pdf a unir” / “nombre.pdf” *”nuevo nombre” | Une archivos PDF
-Pdfseparate -f # “pagina-1” #”página” “nombre.pdf resultado”_%d.pdf  | Separa pdf
+Pdfunite “nombres de los pdf a unir” / “nombre.pdf” ”nuevo nombre” | Une archivos PDF
+Pdfseparate -f # pagina-1 #página nombre.pdf resultado_%d.pdf | Separa pdf
 convert -verbose -density 300 -trim -quality 100 -flatten -sharpen 0x1.0 archivo.pdf salida.jpg | Convertir de pdf a jpg
-
-
-*MEGA UTILES*
 Grep -r “palabra” “ruta” | Busca cadenas de texto
 Find ruta –“name” “nombredelarchivo”  | Busca de archivos
