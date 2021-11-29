@@ -35,9 +35,9 @@ curl -X GET -L ubicación | Envia solicitudes a páginas web
 wc /var/log/syslog | Cuenta la cantidad de líneas
 wc /var/log/syslog -w | Cuenta la cantidad de palabras
 wc /var/log/syslog -m | Cuenta la cantidad de caracteres
-head *ruta* | Primeras líneas de un archivo)
-head *ruta* -n 3  () | 
-tail
+head *ruta* | Primeras líneas de un archivo
+head *ruta* -n 3  () | Va mostrando las primeras lineas pero poco a poco
+tail | mostrar las últimas líneas de cualquier fichero
 less o more | Muestra primeras 10 lineas
 ls -1 / -R | Imprime todas las carpetas
 ls -1 / -R - more | Imprime las carpetas lentamente)
