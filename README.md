@@ -28,7 +28,7 @@ Touch archivo | Crea archivo dentro de directorio
 Rm directorio -R | Borra un directorio completo
 Rm directorio -Rf | Borra un directorio completo de manera forzada
 Rm -Rf  | NO USAR – daña el SO
-Scp archivo usuario@direccionip:/ruta | 
+Scp archivo usuario@direccionip:/ruta | Para transferir archivos entre hosts a través del protocolo SSH
 sudo apt install openssh-server | Instalacion de servidor ssh
 git clone URL | Para clonar 
 curl -X GET -L ubicación | Envia solicitudes a páginas web
