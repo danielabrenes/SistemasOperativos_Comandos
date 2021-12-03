@@ -50,3 +50,25 @@ Pdfseparate -f # pagina-1 #página nombre.pdf resultado_%d.pdf | Separa pdf
 convert -verbose -density 300 -trim -quality 100 -flatten -sharpen 0x1.0 archivo.pdf salida.jpg | Convertir de pdf a jpg
 Grep -r “palabra” “ruta” | Busca cadenas de texto
 Find ruta –“name” “nombredelarchivo”  | Busca de archivos
+Comando Docker | Uso
+------------ | -------------
+curso docker images | Para ver las imagenes con las que cuenta
+curso docker pull ngnx |
+curso docker ps -a | Para ver los estados de los contenedores
+curso docker history nginx | Historial de capas
+curso docker info | Muestra los drivers
+curse uname -a | Para ver el kernel
+~ docker network ls | Para ver las redes de Docker
+~ sudo ifconfig docker0 | Para ver la interface Docker Cero
+~ docker network create --driver (nombre de la red) | Crear un driver
+~ sudo ifconfig -s | Para ver las interfaces
+~sudo ifconfig (red) | Para ver los contenedores de una red
+docker pull | Se trae del repositorio o registro que nosotros le digamos la imagen adecuada.
+docker ps -a | Para ver los contenedores que estan en ejecucion y los que no
+~ docker run -ti (imagen) |  "docker run" con las opciones "-t", que es para que nos asigne un terminal, y la "i", que es para que sea interactivo
+~ docker run -ti --rm (imagen) | "docker run -ti", para que sea interactivo, y agregamos la opción "--rm", esto hará que cuando se termine de ejecutar el comando del contenedor automáticamente se borre del disco. 
+~ docker run -ti --rm ubuntu bash = entry point | Para activar comandos Unix
+~ docker rmi (imagen) | Para borrar imagenes
+docker find ./ | Muestra ficheros
+producer nginx docker built -t (imagen y version) (carpeta) | Crear un imagenes
+producer curso vim Dockerfile | Hacer variables
