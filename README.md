@@ -50,6 +50,7 @@ Pdfseparate -f # pagina-1 #página nombre.pdf resultado_%d.pdf | Separa pdf
 convert -verbose -density 300 -trim -quality 100 -flatten -sharpen 0x1.0 archivo.pdf salida.jpg | Convertir de pdf a jpg
 Grep -r “palabra” “ruta” | Busca cadenas de texto
 Find ruta –“name” “nombredelarchivo”  | Busca de archivos
+------------ | -------------
 Comando Docker | Uso
 ------------ | -------------
 curso docker images | Para ver las imagenes con las que cuenta
