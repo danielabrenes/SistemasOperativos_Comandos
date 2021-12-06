@@ -1,10 +1,10 @@
 # SistemasOperativos_Comandos
 Se encuentran adjuntos varios comandos de Linux 
-Comando | Uso
------------- | -------------
-ip addr | Para ver la direccion IP
-ping 8.8.8.8(direccion) | Acceso a internet
-sudo apt install neofetch | Instalacion del neofetch
+Comando | Uso |  Ejemplo
+------------ | ------------- | -------------
+ip addr | Para ver la direccion IP |
+ping 8.8.8.8(direccion) | Acceso a internet |
+sudo apt install neofetch | Instalacion del neofetch |
 neofetch | Ejecuta el Neofetch
 sudo apt | Para instalar paquetes
 clear | Limpia la terminal
